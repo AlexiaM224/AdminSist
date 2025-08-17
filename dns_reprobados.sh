@@ -6,7 +6,7 @@ apt-get update -y
 apt-get install -y bind9 bind9utils
 
 dominio="reprobados.com"
-ip="192.168.0.50"   # <-- aquí pones la IP de la VM Windows o cliente
+ip="192.168.1.108"   # <-- IP Lubuntu
 
 echo "=== Creando carpeta de zonas ==="
 mkdir -p /etc/bind/zones
