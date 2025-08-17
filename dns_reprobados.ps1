@@ -6,7 +6,7 @@ Get-WindowsFeature -Name DNS
 
 # Definir dominio e IP fija
 $dominio = "reprobados.com"
-$ip = "192.168.0.50"   # <-- aquí pones la IP de la VM Ubuntu o cliente
+$ip = "192.168.1.108"   # <-- IP Lubuntu
 
 Write-Host "=== Creando zona primaria para $dominio ==="
 Add-DnsServerPrimaryZone -Name $dominio -ZoneFile "$dominio.dns" -DynamicUpdate NonsecureAndSecure
